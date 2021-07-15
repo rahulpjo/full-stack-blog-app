@@ -1,0 +1,22 @@
+.nav-bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+border-bottom: 2px solid black;
+height: 4rem;
+position: fixed;
+width: 100vw;
+}
+.nav-bar > *{
+ padding: 0 3rem;
+}
+
+.nav-link-container {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link-container > * {
+  text-decoration: none;
+}
