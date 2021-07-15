@@ -28,7 +28,7 @@ const PostDetail = (props) => {
             <div className="title">{post.title}</div>
             <img
               className="post-detail-image"
-              src={post.imgURL}
+              src={post.imageURL}   
               alt={post.title}
             />
             <div className="content">{post.content}</div>
@@ -39,12 +39,9 @@ const PostDetail = (props) => {
                   Edit
                 </Link>
               </button>
-              <div
-                className="delete-button"
-                onClick={() => deletePost(post._id)}
-              >
+              <button className="delete-button" onClick={() => deletePost(post._id)}>
                 Delete
-              </div>
+              </button>
             </div>
           </div>
         </div>
