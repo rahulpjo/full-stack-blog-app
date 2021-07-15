@@ -1,8 +1,8 @@
 .post {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  margin: 20px;
-  padding: 20px;
+  width: 18.75rem;
+  margin: 1.25rem;
+  padding: 1.25rem;
   background-color: beige;
 }
