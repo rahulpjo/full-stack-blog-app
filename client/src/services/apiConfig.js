@@ -6,11 +6,7 @@ const apiUrls = {
   development: "http://localhost:3000/api",
 };
 
-if (window.location.hostname === "localhost") {
-  apiUrl = apiUrls.development;
-} else {
-  apiUrl = apiUrls.production;
-}
+apiUrl = apiUrls.production;
 
 const api = axios.create({ baseURL: apiUrl });
 
