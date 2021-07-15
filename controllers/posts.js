@@ -8,3 +8,12 @@ export const getPosts = async (req, res) => {
     res.status(500).send(error.message);
   }
 };
+
+export const getSinglePost = async (req,res) => {
+  try {
+    const post = await Post.findById(req.params.id);
+    res.json(post);
+  } catch (error) {
+    res.status(500).send(error.message)
+  }
+}
