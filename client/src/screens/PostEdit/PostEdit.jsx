@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./PostEdit.css";
-import { Layout } from "../../components";
+import Layout from "../../components/Layout/Layout";
 import { useParams, Redirect } from "react-router";
 import { getPost, updatePost } from "../../services/posts";
 
