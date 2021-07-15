@@ -14,6 +14,7 @@ const PostDetail = (props) => {
       const post = await getPost(id);
       setPost(post);
       setLoaded(true);
+      console.log(post)
     };
     fetchPost();
   }, [id]);
@@ -28,7 +29,7 @@ const PostDetail = (props) => {
             <div className="title">{post.title}</div>
             <img
               className="post-detail-image"
-              src={post.imgURL}
+              src={post.imageURL}
               alt={post.title}
             />
             <div className="content">{post.content}</div>
