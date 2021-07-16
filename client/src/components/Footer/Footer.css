@@ -1,5 +1,7 @@
 .footer {
   height: 10vh;
+  position: relative;
+  z-index: 4;
 
   
   background-color: #78BD59;
