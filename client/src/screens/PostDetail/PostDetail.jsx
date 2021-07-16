@@ -40,12 +40,9 @@ const PostDetail = (props) => {
                   Edit
                 </Link>
               </button>
-              <div
-                className="delete-button"
-                onClick={() => deletePost(post._id)}
-              >
+              <button className="delete-button" onClick={() => deletePost(post._id)}>
                 Delete
-              </div>
+              </button>
             </div>
           </div>
         </div>
