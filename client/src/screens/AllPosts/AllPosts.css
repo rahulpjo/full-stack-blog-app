@@ -4,10 +4,6 @@
   justify-content: center;
 }
 
-body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-
 body::-webkit-scrollbar {
   width: 1em;
 }
