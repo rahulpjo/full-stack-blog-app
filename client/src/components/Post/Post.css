@@ -26,6 +26,22 @@
   width: 60%;
 }
 
+.post-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.post-text h5 {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
 .post-image {
   width: 30%;
+}
+
+.post-preview:hover {
+  box-shadow: none;
 }
