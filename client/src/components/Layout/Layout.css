@@ -1,6 +1,6 @@
 .layout-children {
   display: flex;
-  /* margin-left: 10rem; */
+  margin-left: 10rem;
   padding-top: 10rem;
   min-height: 72vh;
 }
