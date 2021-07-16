@@ -1,5 +1,6 @@
 .footer {
   height: 10vh;
+  width: 100vw;
   position: relative;
   z-index: 4;
 

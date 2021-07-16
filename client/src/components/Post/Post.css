@@ -1,8 +1,48 @@
 .post {
-  display: flex;
-  flex-direction: column;
-  width: 18.75rem;
+  width: 60rem;
   margin: 1.25rem;
   padding: 1.25rem;
-  background-color: beige;
+  background-color: #78bd59;
+  text-decoration: none;
+  color: black;
+  border-radius: 17px;
+  transition: box-shadow 0.5s ease-out;
+  border: 2px solid black;
+}
+.post:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.51);
+}
+.post article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.post-text {
+  width: 60%;
+}
+
+.post-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.post-text h5 {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.post-image {
+  width: 30%;
+}
+
+.post-preview:hover {
+  box-shadow: none;
 }

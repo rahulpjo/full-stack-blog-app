@@ -11,21 +11,22 @@ body {
   height: 465px;
   left: 336px;
   top: 221px;
-  background: #78bd59;
+  background: #FBE048;
   border-radius: 34px;
+  border: 3px solid black;
 }
 
 .title {
   position: absolute;
   left: 4.92%;
   right: 32.04%;
-  top: 10.48%;
+  top: 5%;
   bottom: 75%;
   font-style: normal;
   font-weight: bolder;
-  font-size: 64px;
-  line-height: 56px;
-
+  font-size: 45px;
+  line-height: 45px;
+  flex-wrap: wrap;
   color: #000000;
 }
 
@@ -33,9 +34,8 @@ body {
   position: absolute;
   left: 5.31%;
   right: 82.78%;
-  top: 36.77%;
+  top: 36%;
   bottom: 58.71%;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 600;
@@ -53,23 +53,24 @@ body {
   height: 350px;
   width: 250px;
   border-radius: 34px;
+  border: 3px solid black;
 }
 
 .content {
   position: absolute;
   left: 5.26%;
   right: 32.04%;
-  top: 45%;
+  top: 50%;
   bottom: 8.87%;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
+  height:auto;
   color: #000000;
 }
+
 .edit-button {
   position: absolute;
   width: 86px;
@@ -78,7 +79,12 @@ body {
   top: 400px;
   background: #000000;
   border-radius: 18px;
+  border: 3px solid white;
 }
+
+/* .edit-button:hover {
+  background-color: white;
+} */
 
 .edit-link {
   font-style: normal;
@@ -87,6 +93,10 @@ body {
   line-height: 21px;
   text-decoration: none;
   color: #ffffff;
+}
+
+.edit-link:hover {
+  color: #78BD59;
 }
 
 .delete-button {
@@ -102,4 +112,9 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
+  border: 3px solid white;
+}
+
+.delete-button:hover {
+    color: #78BD59;
 }
