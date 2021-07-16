@@ -70,3 +70,37 @@ body {
 
   color: #000000;
 }
+.edit-button {
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  left: 40px;
+  top: 400px;
+  background: #000000;
+  border-radius: 18px;
+}
+
+.edit-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.delete-button {
+  position: absolute;
+  width: 86px;
+  height: 36px;
+  left: 150px;
+  top: 400px;
+  background: #000000;
+  border-radius: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+}
