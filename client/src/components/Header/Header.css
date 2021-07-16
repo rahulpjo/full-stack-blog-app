@@ -8,6 +8,7 @@
   background-color: #78bd59;
   height: 10rem;
   width: 100vw;
+  z-index: 1;
 }
 .nav-content-container {
   display: flex;
