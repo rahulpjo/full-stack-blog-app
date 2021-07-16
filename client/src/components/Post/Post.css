@@ -1,8 +1,27 @@
 .post {
-  display: flex;
-  flex-direction: column;
-  width: 18.75rem;
+  width: 60rem;
   margin: 1.25rem;
   padding: 1.25rem;
-  background-color: beige;
+  background-color: #78bd59;
+  text-decoration: none;
+  color: black;
+  border-radius: 17px;
+}
+.post article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.post-text {
+  width: 60%;
+}
+
+.post-image {
+  width: 30%;
 }

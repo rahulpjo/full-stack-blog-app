@@ -11,8 +11,9 @@ body {
   height: 465px;
   left: 336px;
   top: 221px;
-  background: #78bd59;
+  background: #FBE048;
   border-radius: 34px;
+  border: 4px solid black;
 }
 
 .title {
@@ -52,6 +53,7 @@ body {
   height: 350px;
   width: 250px;
   border-radius: 34px;
+  border: 4px solid black;
 }
 
 .content {
@@ -93,7 +95,7 @@ body {
 }
 
 .edit-link:hover {
-  color: #FBE048;
+  color: #78BD59;
 }
 
 .delete-button {
@@ -112,5 +114,5 @@ body {
 }
 
 .delete-button:hover {
-    color: #FBE048;
+    color: #78BD59;
 }
