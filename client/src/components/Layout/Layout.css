@@ -1,3 +1,5 @@
 .layout-children {
-  padding-top: 4rem;
+  display: flex;
+  height: 50vh; /*change me*/ 
+  padding-top: 10rem;
 }

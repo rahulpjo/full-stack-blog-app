@@ -1,6 +1,11 @@
 .footer {
   height: 10vh;
+
   
-  border-top: 2px solid black;
+  background-color: #78BD59;
   text-align:center;
+}
+.footer > * {
+  padding: 0;
+  margin: 0;
 }
