@@ -15,7 +15,6 @@ const AllPosts = () => {
 
   return (
     <Layout>
-      <h1>Hello</h1>
       <div className="posts">
         {posts.map((post) => (
           <Post key={post._id} post={post} />

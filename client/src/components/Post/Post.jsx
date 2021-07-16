@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./Post.css";
 
 const Post = (props) => {
+  const params = useParams();
+
   const { _id, title, imageURL, content, author } = props.post;
   return (
-    <Link className="post" to={`/posts/${_id}`}>
+    <Link
+      className={`post${params.id ? " post-preview" : ""}`}
+      to={params.id ? null : `/posts/${_id}`}
+    >
       <article>
         <section className="post-text">
           <h2>{title}</h2>
