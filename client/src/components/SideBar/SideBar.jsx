@@ -11,9 +11,6 @@ function SideBar() {
       <Link to="/new">
         Create
       </Link>
-      <Link to="/posts">
-        Posts
-      </Link>
     </div>
   )
 }

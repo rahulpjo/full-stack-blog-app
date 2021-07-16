@@ -1,10 +1,11 @@
 import Layout from "../../components/Layout/Layout"
+import PostList from "../../components/PostList/PostList"
 import "./Home.css"
 
 const Home = () => {
   return (
     <Layout>
-      <p>welcome home users</p>
+      <PostList/>
     </Layout>
   )
 }
