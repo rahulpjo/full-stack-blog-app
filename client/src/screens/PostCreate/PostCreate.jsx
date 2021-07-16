@@ -67,7 +67,7 @@ const PostCreate = (props) => {
           className="input-name"
           placeholder="Name"
           value={post.author}
-          name="name"
+          name="author"
           required
           autoFocus
           onChange={handleChange}
