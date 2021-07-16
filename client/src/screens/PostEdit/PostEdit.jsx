@@ -73,7 +73,7 @@ const PostEdit = (props) => {
           />
           <textarea
             className="textarea-content"
-            rows={20}
+            rows={10}
             cols={100}
             placeholder="Blog"
             value={post.content}
