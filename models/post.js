@@ -10,6 +10,6 @@ const Post = new Schema (
         content: { type: String, required: true },
         author: { type: String, required: true }
     }, 
-        {timestamps: true}
+        {timestamps: true},
 )
 export default mongoose.model("posts", Post)
