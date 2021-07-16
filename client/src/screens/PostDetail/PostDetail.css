@@ -11,8 +11,9 @@ body {
   height: 465px;
   left: 336px;
   top: 221px;
-  background: #78bd59;
+  background: #FBE048;
   border-radius: 34px;
+  border: 3px solid black;
 }
 
 .title {
@@ -52,6 +53,7 @@ body {
   height: 350px;
   width: 250px;
   border-radius: 34px;
+  border: 3px solid black;
 }
 
 .content {
@@ -77,6 +79,7 @@ body {
   top: 400px;
   background: #000000;
   border-radius: 18px;
+  border: 3px solid white;
 }
 
 /* .edit-button:hover {
@@ -93,7 +96,7 @@ body {
 }
 
 .edit-link:hover {
-  color: #FBE048;
+  color: #78BD59;
 }
 
 .delete-button {
@@ -109,8 +112,9 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
+  border: 3px solid white;
 }
 
 .delete-button:hover {
-    color: #FBE048;
+    color: #78BD59;
 }
