@@ -15,7 +15,7 @@
 }
 
 .image-container {
-  margin-left: 15vw;
+  margin-left: 10vw;
   width: 600px;
 }
 
@@ -26,6 +26,9 @@
 
 .edit-input-image-link {
   width: 33vw;
+  height: 3vh;
+  background-color: #fbe048;
+  font-family: 'Roboto', sans-serif;
 }
 
 .input-title {
@@ -33,7 +36,8 @@
   font-weight: bolder;
   font-size: 50px;
   height: 10vh;
-
+  border: 2px solid black;
+  border-radius: 17px;
 }
 
 .save-button {
@@ -48,7 +52,15 @@
   margin-left: 13vw;
   margin-top: 2vh;
   margin-bottom: 1vh;
-  background-color: #78bd59;
+  background-color: #fbe048;
+  border: 2px solid black;
   font-family: 'Amatic SC', cursive;
   font-size: 5vh;
+}
+
+.textarea-content{
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border: 2px solid black;
+
 }
