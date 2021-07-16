@@ -1,6 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap');
+
 .create-form {
   display: flex;
   flex-direction: column;
-  width: 41.6vw;
-  margin-left: 29.16vw;
+  width: 40vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 18vw;
+  margin-right: 1vw;
+  border-radius: 17px;
+  border: 3px solid black;
+  height: 66vh;
+  padding: 1.5vw;
+  background-color: #FBE048;
+  grid-area: 'A';
+
+}
+
+.input-title {
+  height: 2vh;
+  padding: 2vh;
+  margin-bottom: 1vh;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  background-color:  #FBE048;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  grid-area: B;
+  background-color: #FBE048;
+  width: 20vw;
+  margin-left: none;
+  margin-top: 14vh;
+  border: 3px solid black;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bolder;
+  font-size: 64px;
+  height: 45vh;
+  padding: 0;
+  justify-content: center;
+  line-height: 11vh;
+}
+
+.new-container {
+  background-image: linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,.15)),url(https://i.imgur.com/pMywUp5t.png);
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100vw;
+  display: grid;
+  column-gap: none;
+  grid-column: 1fr 1fr;
+  grid-template-areas: 
+  'A B'
+  'A B';
+
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  border-radius: 17px;
+  border: 3px solid black;
+}
+
+.input-image-link {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  font-size: 30px;
+  padding: 2vh;
+  border-left: none;
+  border-right: none;
+  
+}
+
+
+.textarea-content {
+  resize: none;
+  font-family: inherit;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 2vh;
+}
+
+.input-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 2vh;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border: none;
+}
+
+.submit-blog-button {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 2vh;
+  border-radius: 17px;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 13vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  background-color: #78bd59;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5vh;
 }

@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(255,255,255,.15), rgba(255,255,255,.15)),url(https://i.imgur.com/pMywUp5t.png);
+  background-repeat: repeat;
+  background-size: auto;
+  width: 100vw;
+}

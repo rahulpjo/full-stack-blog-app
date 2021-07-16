@@ -3,3 +3,16 @@
   flex-flow: row wrap;
   justify-content: center;
 }
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fbe048;
+  outline: none;
+}

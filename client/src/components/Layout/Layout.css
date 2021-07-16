@@ -1,3 +1,10 @@
-.layout-children {
-  padding-top: 4rem;
+.layout-children-container {
+  display: flex;
+  /* margin-left: 10rem; */
+  padding-top: 10rem;
+  min-height: 72vh;
+}
+.layout-children-content {
+margin-left: 16vw;
+max-width: 80vw;
 }

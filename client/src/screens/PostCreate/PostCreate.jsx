@@ -34,7 +34,11 @@ const PostCreate = (props) => {
 
   return (
     <Layout>
-      <form className="create-form" onSubmit={handleSubmit}>
+      <div className="new-container">
+      <div className="intro">Be bitter.<br></br> 
+      Blog(Squeeze). <br></br>
+      Be better.<br></br></div>
+      <form className="create-form" onSubmit={handleSubmit} autoComplete="off">
         <input
           className="input-title"
           placeholder="Title"
@@ -44,6 +48,7 @@ const PostCreate = (props) => {
           autoFocus
           onChange={handleChange}
         />
+      <div className="input-container">
         <input
           className="input-image-link"
           placeholder="Image Link"
@@ -67,15 +72,17 @@ const PostCreate = (props) => {
           className="input-name"
           placeholder="Name"
           value={post.author}
-          name="name"
+          name="author"
           required
           autoFocus
           onChange={handleChange}
         />
+      </div>  
         <button type="submit" className="submit-blog-button">
-          Submit
+        ​Squeeze!🍋​💦​💦​
         </button>
       </form>
+    </div>
     </Layout>
   );
 };

@@ -1,6 +1,14 @@
 .footer {
   height: 10vh;
+  width: 100vw;
+  position: relative;
+  z-index: 4;
+
   
-  border-top: 2px solid black;
+  background-color: #78BD59;
   text-align:center;
+}
+.footer > * {
+  padding: 0;
+  margin: 0;
 }
