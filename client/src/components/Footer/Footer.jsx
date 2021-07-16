@@ -1,12 +1,13 @@
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>i'm just a-footin</h2>
-      
+      <p>done with pride by breakout room SOUR:</p>
+      <p>Jessa Clark, Rahul Joshi, Maximiliani Carlson, Erick Manrique</p>
+      <p>don't worry guys this is not the final footer</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
